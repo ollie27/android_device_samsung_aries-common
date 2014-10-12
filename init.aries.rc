@@ -205,7 +205,7 @@ service geomagneticd /system/vendor/bin/geomagneticd
     user compass
     group system input
 
-service tvout /system/bin/tvoutserver
+service tvout /system/vendor/bin/tvoutserver
     class late_start
     user system
     group graphics
